@@ -13,9 +13,9 @@ var articulos = [
 // })
 
 //Llama los nombres de los articulos
-// var nombreArticulos = articulos.map(function(articulo){
-//     return articulo.nombre
-// })
+// // var nombreArticulos = articulos.map(function(articulo){
+// //     return articulo.nombre
+// // })
 
 //Verifica si hay un elemento que cumple con una peticion, si es verdad trae "true", si es falso trae "False"
 var verSiHayPrecio = articulos.some(function(articulo){
@@ -27,4 +27,4 @@ return articulo.costo < 500
 // )
 
 
-console.log(verSiHayPrecio)
+console.log(verSiHayPrecio);
